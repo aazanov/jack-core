@@ -1,0 +1,25 @@
+{
+  "name": "jackcore",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "start": "gulp && node build",
+    "inspect": "gulp && node --require ts-node/register --inspect-brk src/index.ts"
+  },
+  "author": "Azanov A.A.",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.7",
+    "node-gyp": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.7",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.2",
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  }
+}
