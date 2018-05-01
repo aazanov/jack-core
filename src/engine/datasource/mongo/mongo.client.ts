@@ -11,9 +11,10 @@ export class MongoClient {
         this.db = client.db(MongoConfig.database);
     }
 
-    static instance: any = null;
+    //SECTION SINGLETON -----------------------------------------------------------------------------------------------
+    private static instance: MongoClient = null;
 
-    static getInstance(): any {
-        return this.instance = this.instance || new MongoClient();
+    static getInstance(){
+        return this.instance || new MongoClient();
     }
 }
