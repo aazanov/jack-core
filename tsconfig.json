@@ -3,7 +3,8 @@
     "module": "commonjs",
     "target": "es2015",
     "inlineSources": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules"

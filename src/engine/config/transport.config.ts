@@ -1,3 +1,3 @@
 export const TransportConfig = {
-    publicPort: 999
+    publicPort: 3000
 };
